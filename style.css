@@ -82,7 +82,7 @@ section, .hero.is-medium {
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding-top: 56.25%; /* 16:9 */
+  padding-top: 56.25%;
 }
 
 .responsive-iframe {
@@ -116,14 +116,17 @@ section, .hero.is-medium {
   padding-top: 8rem;
 }
 
-/*
-.non-cest-pas-bien {
-  fill: #ff3131;
-  width: 10rem;
-  height: 10rem;
-  position: absolute;
-  text-align: center;
-  bottom: -4.375rem;
-}*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  svg .arrows {
+    width: 10rem;
+    height: 10rem;
+    fill: white;
+  }
+  svg .checkmark-icon {
+    fill: var(--emphasis);
+    width: 10rem;
+    height: 10rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
