@@ -9,6 +9,7 @@
 body {
   overflow-x: hidden;
   font-family: "IBM Plex Sans", sans-serif;
+  background-color: var(--primary);
 }
 
 section, .hero.is-medium {
