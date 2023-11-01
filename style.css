@@ -6,10 +6,14 @@
   --orange: #ff914d;
 }
 
+body {
+  overflow-x: hidden;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
 section, .hero.is-medium {
   background-color: var(--primary);
   color: white;
-  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .hero-body {
@@ -24,6 +28,9 @@ section, .hero.is-medium {
   text-decoration: line-through;
   text-decoration-color: var(--emphasis);
   text-decoration-thickness: 6px;
+}
+.hero-body .cta {
+  margin-top: 3rem !important;
 }
 
 .primary-color {
@@ -66,6 +73,10 @@ section, .hero.is-medium {
   width: 20rem;
 }
 
+.timothy figure {
+  margin-bottom: 3rem;
+}
+
 .arrows {
   width: 5rem;
   height: 5rem;
@@ -99,6 +110,9 @@ section, .hero.is-medium {
 .my-method-benefits {
   padding-top: 5rem;
 }
+.my-method-benefits ul {
+  margin-bottom: 3rem;
+}
 
 .why-that-works {
   font-family: "Caveat", "IBM Plex Sans", sans-serif;
@@ -129,7 +143,15 @@ section, .hero.is-medium {
   }
 
   .why-that-works {
-    font-size: 5rem;
+    font-size: 8rem;
+  }
+
+  .big-emphasis {
+    font-size: 5rem !important;
+  }
+
+  .damien .image.that-is, .timothy .image.that-is {
+    width: 50rem;
   }
 }
 
